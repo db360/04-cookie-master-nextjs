@@ -12,7 +12,7 @@ export const Layout = ({children}:React.PropsWithChildren<{}>) => {
         <nav>
             <Navbar />
         </nav>
-        <main style={{padding: '20px 50px'}}>
+        <main className="main-container">
             {children}
         </main>
 

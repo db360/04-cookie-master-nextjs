@@ -7,6 +7,7 @@ export const Navbar = () => {
   return (
     <AppBar position="sticky" elevation={ 0 }>
       <Toolbar>
+
         <IconButton
           size='large'
           edge='start'
@@ -20,7 +21,7 @@ export const Navbar = () => {
           </Link>
         </NextLink>
 
-        <div style={{flex: 1}}/>
+        <div className='separation'/>
 
         <NextLink href='/theme-changer' passHref>
           <Link>
